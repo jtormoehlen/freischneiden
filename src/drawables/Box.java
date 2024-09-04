@@ -7,6 +7,11 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class Box extends Geometry {
 
 	private BufferedImage image;

@@ -12,7 +12,9 @@ import javax.swing.SwingUtilities;
 import javax.swing.event.MouseInputListener;
 
 /**
- * Created by Johannes on 14.06.2016.
+ * Created by Johannes Tormoehlen on 14.06.2016.
+ *
+ * @author jtormoehlen
  */
 public abstract class ZoomPanel extends JPanel {
 

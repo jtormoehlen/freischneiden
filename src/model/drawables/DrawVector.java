@@ -10,8 +10,11 @@ import model.geometry.Vector2D;
 // import org.scilab.forge.jlatexmath.TeXFormula;
 // import org.scilab.forge.jlatexmath.TeXIcon;
 
-import javax.swing.*;
-
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class DrawVector extends DrawGeometry {
 
     private Vector2D vec;

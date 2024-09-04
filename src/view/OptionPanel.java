@@ -2,16 +2,18 @@ package view;
 
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 import javax.swing.*;
 import javax.swing.border.Border;
-import javax.swing.border.TitledBorder;
 import javax.swing.plaf.BorderUIResource;
 
-import drawables.Geometry;
 import model.drawables.DrawGeometry;
 
+/**
+ * Created by Johannes Tormoehlen on 30.06.2016.
+ *
+ * @author jtormoehlen
+ */
 @SuppressWarnings("serial")
 public class OptionPanel extends JPanel{
 	
@@ -62,10 +64,10 @@ public class OptionPanel extends JPanel{
 		options.setBorder(loweredbevel);
 
 
-//		Border loweredbevel = BorderFactory.createLoweredBevelBorder();
-//		TitledBorder title = BorderFactory.createTitledBorder(
-//				loweredbevel, "Operation");
-//		title.setTitlePosition(TitledBorder.ABOVE_TOP);
+		// Border loweredbevel = BorderFactory.createLoweredBevelBorder();
+		// TitledBorder title = BorderFactory.createTitledBorder(
+		// 		loweredbevel, "Operation");
+		// title.setTitlePosition(TitledBorder.ABOVE_TOP);
 
 		opStatus = new JTextField("");
 		opStatus.setEditable(false);
@@ -162,11 +164,11 @@ public class OptionPanel extends JPanel{
 	public void updateOptions() {
 		boolean flag = drawPanel.getSceneFlag();
 
-//		if(flag) {
-//			setComponent(options, false);
-//		} else {
-//			setComponent(options, true);
-//		}
+		// if(flag) {
+		// 	setComponent(options, false);
+		// } else {
+		// 	setComponent(options, true);
+		// }
 	}
 
 	private void setComponent(JPanel menu, boolean flag) {

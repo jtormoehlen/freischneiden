@@ -8,7 +8,9 @@ import model.geometry.Rectangle;
 import java.util.ArrayList;
 
 /**
- * Created by Johannes on 14.05.2016.
+ * Created by Johannes Tormoehlen on 14.05.2016.
+ *
+ * @author jtormoehlen
  */
 public class Boundary {
 	

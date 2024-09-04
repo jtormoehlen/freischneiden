@@ -6,7 +6,9 @@ import model.geometry.Point;
 import java.awt.*;
 
 /**
- * Created by Johannes on 24.05.2016.
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
  */
 public class DrawPoint extends DrawGeometry {
 

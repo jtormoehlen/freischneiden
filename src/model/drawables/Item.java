@@ -4,13 +4,14 @@ import controller.ImageHandler;
 import model.geometry.Point;
 import model.geometry.Rectangle;
 
-import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.awt.image.RescaleOp;
-import java.io.File;
-import java.io.IOException;
 
+/**
+ * Created by Johannes Tormoehlen on 18.06.2016.
+ *
+ * @author jtormoehlen
+ */
 public class Item extends DrawGeometry {
 
     public Point a;

@@ -10,6 +10,11 @@ import model.geometry.Point;
 import model.geometry.Vector2D;
 import listener.tools.Resultant;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class BalanceListener {
 
     private DrawOperation drawOperation;

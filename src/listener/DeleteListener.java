@@ -11,7 +11,9 @@ import javax.swing.event.MouseInputAdapter;
 import java.awt.event.MouseEvent;
 
 /**
- * Created by Johannes on 26.05.2016.
+ * Created by Johannes Tormoehlen on 26.05.2016.
+ *
+ * @author jtormoehlen
  */
 public class DeleteListener extends MouseInputAdapter {
 

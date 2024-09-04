@@ -7,6 +7,11 @@ import javax.swing.event.MouseInputAdapter;
 import controller.DrawableGeometryProcessing;
 import drawables.Point;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class PointListener extends MouseInputAdapter {
 	
 	private DrawableGeometryProcessing d;

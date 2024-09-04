@@ -5,7 +5,9 @@ import model.drawables.DrawVector;
 import model.drawables.Dummy;
 
 /**
- * Created by Johannes on 09.06.2016.
+ * Created by Johannes Tormoehlen on 09.06.2016.
+ *
+ * @author jtormoehlen
  */
 public class Container {
 

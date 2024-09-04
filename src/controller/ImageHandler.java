@@ -6,6 +6,11 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+/**
+ * Created by Johannes Tormoehlen on 14.06.2016.
+ *
+ * @author jtormoehlen
+ */
 public class ImageHandler {
 
 	private BufferedImage img;

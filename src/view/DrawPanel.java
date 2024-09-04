@@ -7,10 +7,14 @@ import model.geometry.Circle;
 
 import javax.swing.*;
 import javax.swing.border.Border;
-import javax.swing.plaf.BorderUIResource;
 import java.awt.*;
 import java.util.ArrayList;
 
+/**
+ * Created by Johannes Tormoehlen on 20.05.2016.
+ *
+ * @author jtormoehlen
+ */
 @SuppressWarnings("serial")
 public class DrawPanel extends ZoomPanel {
 

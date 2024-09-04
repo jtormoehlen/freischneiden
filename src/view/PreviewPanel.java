@@ -10,7 +10,9 @@ import java.awt.*;
 import java.util.ArrayList;
 
 /**
- * Created by Johannes on 30.06.2016.
+ * Created by Johannes Tormoehlen on 30.06.2016.
+ *
+ * @author jtormoehlen
  */
 public class PreviewPanel extends JPanel {
 

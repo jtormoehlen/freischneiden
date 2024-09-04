@@ -5,11 +5,9 @@ import java.awt.event.*;
 
 import javax.swing.*;
 import javax.swing.border.Border;
-import javax.swing.event.ChangeListener;
 import javax.swing.event.MouseInputListener;
 
 import model.drawables.DrawGeometry;
-import model.drawables.DrawVector;
 import model.geometry.Vector2D;
 import model.scenes.DrawScene;
 import listener.*;
@@ -17,6 +15,11 @@ import listener.tools.Resultant;
 import view.OptionPanel;
 import view.PreviewPanel;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class ListenerController {
 
     private ViewPanelController viewPanelController;

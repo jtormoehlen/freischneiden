@@ -3,7 +3,9 @@ package model.drawables;
 import java.awt.*;
 
 /**
- * Created by Johannes on 14.06.2016.
+ * Created by Johannes Tormoehlen on 14.06.2016.
+ *
+ * @author jtormoehlen
  */
 public class Dummy extends DrawGeometry {
 

@@ -5,7 +5,9 @@ import model.geometry.Polygon2D;
 import java.awt.*;
 
 /**
- * Created by Johannes on 24.05.2016.
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
  */
 public class DrawPolygon extends DrawGeometry {
 

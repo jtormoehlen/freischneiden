@@ -12,11 +12,14 @@ import controller.DrawOperation;
 import controller.ViewPanelController;
 import model.drawables.DrawGeometry;
 import model.drawables.DrawVector;
-import model.drawables.Earth;
-import model.drawables.Item;
 import model.geometry.Point;
 import listener.tools.Boundary;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class MoveListener extends MouseInputAdapter {
 
     private DrawOperation drawOperation;

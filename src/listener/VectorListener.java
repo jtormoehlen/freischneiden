@@ -14,6 +14,11 @@ import model.geometry.Vector2D;
 
 import listener.tools.Boundary;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class VectorListener extends MouseInputAdapter {
 
     private DrawOperation drawOperation;

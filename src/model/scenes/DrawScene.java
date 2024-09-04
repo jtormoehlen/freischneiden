@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 
 /**
- * Created by Johannes Tormöhlen on 24.05.2016.
+ * Created by Johannes Tormoehlen on 24.05.2016.
  *
  * @author jtormoehlen
  */
@@ -475,10 +475,10 @@ public class DrawScene extends Scene {
 
         Vector2D gravity = new Vector2D(ball.getCenter(), new Point(ball.getCenter().x, (int) (ball.getCenter().y + (earth.EARTH_ACCELERATION * 2.5))));
 
-        Vector2D tmpRel = new Vector2D(gravity);
+        // Vector2D tmpRel = new Vector2D(gravity);
 
         Vector2D ground = new Vector2D(new Point(ball.getSouth().x, ball.getSouth().y), new Point(ball.getSouth().x, ball.getSouth().y - 30));
-        Vector2D antiTmp = Resultant.calcAntiVec(ball.getCenter(), tmpRel);
+        // Vector2D antiTmp = Resultant.calcAntiVec(ball.getCenter(), tmpRel);
 
 
         LinkedList<DrawVector> list = new LinkedList<>();

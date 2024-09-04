@@ -4,6 +4,11 @@ import java.util.ArrayList;
 
 import model.drawables.DrawGeometry;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public interface DrawOperation {
 
 	void drawGeometry(DrawGeometry drawable);

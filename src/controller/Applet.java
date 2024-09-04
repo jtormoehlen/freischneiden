@@ -1,10 +1,14 @@
 package controller;
 
 import java.awt.*;
-import java.util.Scanner;
 
 import javax.swing.*;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class Applet {
 
 	public static void main(String[] args) {

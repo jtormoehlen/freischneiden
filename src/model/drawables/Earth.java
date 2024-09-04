@@ -4,9 +4,12 @@ import java.awt.*;
 
 import model.geometry.Point;
 import model.geometry.Rectangle;
-import model.geometry.Vector2D;
-import view.DrawPanel;
 
+/**
+ * Created by Johannes Tormoehlen on 15.06.2016.
+ *
+ * @author jtormoehlen
+ */
 public class Earth extends Item {
 
     public final double EARTH_ACCELERATION = 9.81d;

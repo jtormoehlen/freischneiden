@@ -1,5 +1,10 @@
 package drawables;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class Vector2DObject {
 
 	private Point a;

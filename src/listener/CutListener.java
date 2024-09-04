@@ -11,8 +11,11 @@ import model.geometry.Polygon2D;
 import javax.swing.event.MouseInputAdapter;
 import java.awt.event.MouseEvent;
 import java.util.LinkedList;
+
 /**
- * Created by Johannes on 24.05.2016.
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
  */
 public class CutListener extends MouseInputAdapter {
 

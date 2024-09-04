@@ -6,12 +6,13 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
-import javax.swing.plaf.BorderUIResource;
 import java.awt.*;
 import java.util.ArrayList;
 
 /**
- * Created by Johannes on 20.05.2016.
+ * Created by Johannes Tormoehlen on 20.05.2016.
+ *
+ * @author jtormoehlen
  */
 public class DataPanel extends JPanel {
 

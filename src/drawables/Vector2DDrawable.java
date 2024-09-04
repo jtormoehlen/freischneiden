@@ -4,6 +4,11 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class Vector2DDrawable extends Geometry {
 
 	private Vector2DObject vec2D;
@@ -12,13 +17,13 @@ public class Vector2DDrawable extends Geometry {
 	final int H = 14;
 	final int B = (int)(14.0 / 1.6);
 	
-	private double initAngle;
+	// private double initAngle;
 	
 	public Vector2DDrawable(Point a, Point b) {
 		vec2D = new Vector2DObject(a, b);
 		this.a = a;
 		this.b = b;
-//		initAngle = Math.atan(() / (b.x - a.x - H));
+		// initAngle = Math.atan(() / (b.x - a.x - H));
 	}
 	
 	@Override
@@ -41,13 +46,13 @@ public class Vector2DDrawable extends Geometry {
 		Point p1 = b;
 		Point p2 = new Point(dX, dY_P);
 		Point p3 = new Point(dX, dY_N);
-//		Point p3 = new Point((vec2D.abs() * Math.cos(Math.toDegrees(vec2D.angle())) + (double)H), (vec2D.abs() * Math.sin(Math.toDegrees(vec2D.angle())) - (double)(B / 2.0d)));
+		// Point p3 = new Point((vec2D.abs() * Math.cos(Math.toDegrees(vec2D.angle())) + (double)H), (vec2D.abs() * Math.sin(Math.toDegrees(vec2D.angle())) - (double)(B / 2.0d)));
 		
-//		System.out.println(vecObject.angle());
-//		System.out.println(vecObject.abs());
+		// System.out.println(vecObject.angle());
+		// System.out.println(vecObject.abs());
 		
-		double r = Math.sqrt(((b.x - H) * (b.x - H)) + ((B / 2) * (B / 2)));
-//		double dX = r * Math.cos(0);
+		// double r = Math.sqrt(((b.x - H) * (b.x - H)) + ((B / 2) * (B / 2)));
+		// double dX = r * Math.cos(0);
 		
 		Polygon2DObject p2D = new Polygon2DObject();
 		p2D.add(p1);

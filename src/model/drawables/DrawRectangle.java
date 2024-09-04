@@ -4,6 +4,11 @@ import java.awt.*;
 
 import model.geometry.Rectangle;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class DrawRectangle extends DrawGeometry {
 
 	private Rectangle rec;

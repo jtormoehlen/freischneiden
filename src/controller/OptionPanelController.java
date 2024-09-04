@@ -5,20 +5,22 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.util.ArrayList;
-import java.util.LinkedList;
 
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.event.MouseInputListener;
 
 import drawables.Box;
 import drawables.Geometry;
-import drawables.Point;
 import listener.BoxListener;
 import listener.PointListener;
 import listener.VectorListener;
 import view.OptionPanel;
 
+/**
+ * Created by Johannes Tormoehlen on 24.05.2016.
+ *
+ * @author jtormoehlen
+ */
 public class OptionPanelController implements DrawableGeometryProcessing {
 
 	private OptionPanel optionPanel;

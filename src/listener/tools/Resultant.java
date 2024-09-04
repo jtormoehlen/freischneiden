@@ -6,7 +6,9 @@ import model.geometry.Point;
 import model.geometry.Vector2D;
 
 /**
- * Created by Johannes on 12.05.2016.
+ * Created by Johannes Tormoehlen on 12.05.2016.
+ *
+ * @author jtormoehlen
  */
 public class Resultant {
 
