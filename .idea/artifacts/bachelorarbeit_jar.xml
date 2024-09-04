@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="bachelorarbeit:jar">
-    <output-path>$PROJECT_DIR$/classes/artifacts/bachelorarbeit_jar</output-path>
-    <root id="archive" name="bachelorarbeit.jar">
-      <element id="module-output" name="bachelorarbeit" />
-      <element id="extracted-dir" path="$USER_HOME$/Downloads/jlatexmath-1.0.3.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
