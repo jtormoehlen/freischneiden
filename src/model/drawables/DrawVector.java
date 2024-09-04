@@ -6,9 +6,9 @@ import java.awt.image.BufferedImage;
 import model.geometry.Point;
 import model.geometry.Polygon2D;
 import model.geometry.Vector2D;
-import org.scilab.forge.jlatexmath.TeXConstants;
-import org.scilab.forge.jlatexmath.TeXFormula;
-import org.scilab.forge.jlatexmath.TeXIcon;
+// import org.scilab.forge.jlatexmath.TeXConstants;
+// import org.scilab.forge.jlatexmath.TeXFormula;
+// import org.scilab.forge.jlatexmath.TeXIcon;
 
 import javax.swing.*;
 
@@ -46,16 +46,16 @@ public class DrawVector extends DrawGeometry {
     }
 
     private void createLatex() {
-        String math = "\\vec {F} \\textsubscript{ " + name + "}";
+        // String math = "\\vec {F} \\textsubscript{ " + name + "}";
 
-        TeXFormula fomule = new TeXFormula(math);
-        fomule.setColor(color);
-        TeXIcon ti = fomule.createTeXIcon(
-                TeXConstants.STYLE_DISPLAY, 20);
+        // TeXFormula fomule = new TeXFormula(math);
+        // fomule.setColor(color);
+        // TeXIcon ti = fomule.createTeXIcon(
+        //         TeXConstants.STYLE_DISPLAY, 20);
 
-        b = new BufferedImage(ti.getIconWidth(), ti
-                .getIconHeight(), BufferedImage.TYPE_4BYTE_ABGR);
-        ti.paintIcon(new JLabel(), b.getGraphics(), 0, 0);
+        // b = new BufferedImage(ti.getIconWidth(), ti
+        //         .getIconHeight(), BufferedImage.TYPE_4BYTE_ABGR);
+        // ti.paintIcon(new JLabel(), b.getGraphics(), 0, 0);
     }
 
     private Graphics2D initDraw(Graphics g) {

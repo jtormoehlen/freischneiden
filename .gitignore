@@ -1,0 +1,9 @@
+/.idea/
+/.settings/
+/bin/
+/classes/
+.classpath
+.project
+bachelorarbeit.iml
+freischneiden.iml
+/src/META-INF/
