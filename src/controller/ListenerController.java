@@ -53,7 +53,6 @@ public class ListenerController {
 
         ActionListener drawListener = new ActionListener() {
 
-            @SuppressWarnings("unchecked")
             public void actionPerformed(ActionEvent e) {
 
                 changeMouseInputListenerTo(null);
@@ -165,6 +164,7 @@ public class ListenerController {
         };
 
         ActionListener vecFromListener = e -> {
+            @SuppressWarnings("unchecked")
             JComboBox<String> cb = (JComboBox<String>) e.getSource();
             container.getCurrentVector().setName((String)cb.getSelectedItem() + " ");
             viewPanelController.redrawGeometry();
@@ -175,6 +175,7 @@ public class ListenerController {
         };
 
         ActionListener vecToListener = e -> {
+            @SuppressWarnings("unchecked")
             JComboBox<String> cb = (JComboBox<String>) e.getSource();
             String name = container.getCurrentVector().getName();
             for(int i = 0; i < name.length(); i++) {
